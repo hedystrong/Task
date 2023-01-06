@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+
+}
+.tom-container{
+  width: 1280px;
+  margin: auto;
+}
+.container{
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu1{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  text-decoration: none;
+  color: black;
+}
+.main-container{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.rightSide.img{
+  position: absolute;
+}
+.rightSide{
+  background-image: url(./images/Rectangle.png);
+  background-repeat: no-repeat;
+}
+.h2{
+  color: #D05270;
+}
+.p{
+  width: 631px;
+  height: 110px;
+}
+.menu2{
+  display: flex;
+  justify-content: space-between;
+}
+.dedMenu{
+  text-decoration: none;
+  color: black;
+}
